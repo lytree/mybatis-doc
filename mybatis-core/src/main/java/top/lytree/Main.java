@@ -14,10 +14,9 @@ import java.nio.file.Files;
 
 public class Main {
   public static void main(String[] args) {
-    String resource="mybatis-config.xml";
     InputStream inputStream=null;
     try {
-      inputStream = Files.newInputStream(new File("F:\\github\\mybatis\\mybatis-core\\src\\main\\java\\top\\lytree\\mybatis-config.xml").toPath());
+      inputStream = Files.newInputStream(new File("D:\\Code\\mybatis-doc\\mybatis-core\\src\\main\\java\\top\\lytree\\mybatis-config.xml").toPath());
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
