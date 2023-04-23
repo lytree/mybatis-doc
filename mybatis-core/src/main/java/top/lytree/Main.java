@@ -4,6 +4,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.ibatis.session.SqlSessionManager;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,7 +23,7 @@ public class Main {
       e.printStackTrace();
     }
     SqlSessionFactory sqlSessionFactory=null;
-    sqlSessionFactory=new SqlSessionFactoryBuilder().build(inputStream);
+    sqlSessionFactory=SqlSessionManager.newInstance(inputStream);
     SqlSession sqlSession=null;
     try {
       sqlSession=sqlSessionFactory.openSession();
