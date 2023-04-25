@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/mybatis-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter/mybatis-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter/mybatis-spring-boot-samples" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-freemarker-legacy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-freemarker/src/main/java" charset="UTF-8" />
@@ -19,5 +22,6 @@
     <file url="file://$PROJECT_DIR$/mybatis-spring-boot-starter/mybatis-spring-boot-test-autoconfigure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
