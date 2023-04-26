@@ -12,6 +12,7 @@
         <module name="mybatis-spring-boot-sample-kotlin.main" />
         <module name="mybatis-spring-boot-starter.test" />
         <module name="mybatis-spring-boot-sample-annotation.test" />
+        <module name="mybatis" />
         <module name="mybatis-spring-boot-test-autoconfigure.main" />
         <module name="mybatis-spring-boot-autoconfigure.main" />
         <module name="mybatis-spring-boot-autoconfigure.test" />

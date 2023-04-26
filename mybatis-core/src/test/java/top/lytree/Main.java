@@ -13,7 +13,7 @@ public class Main {
   public static void main(String[] args) {
     InputStream inputStream=null;
     try {
-      inputStream = Files.newInputStream(new File("D:\\Code\\mybatis-doc\\mybatis-core\\src\\test\\java\\top\\lytree\\mybatis-config.xml").toPath());
+      inputStream = Files.newInputStream(new File("F:\\github\\mybatis\\mybatis-core\\src\\test\\java\\top\\lytree\\mybatis-config.xml").toPath());
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
