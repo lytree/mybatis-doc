@@ -1,13 +1,10 @@
 package top.lytree;
 
-import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.session.SqlSessionManager;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -16,7 +13,7 @@ public class Main {
   public static void main(String[] args) {
     InputStream inputStream=null;
     try {
-      inputStream = Files.newInputStream(new File("D:\\Code\\mybatis-doc\\mybatis-core\\src\\main\\java\\top\\lytree\\mybatis-config.xml").toPath());
+      inputStream = Files.newInputStream(new File("D:\\Code\\mybatis-doc\\mybatis-core\\src\\test\\java\\top\\lytree\\mybatis-config.xml").toPath());
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
